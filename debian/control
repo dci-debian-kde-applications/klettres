@@ -1,0 +1,34 @@
+Source: klettres
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Harald Sitter <apachelogger@ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6)
+Standards-Version: 3.9.2
+Homepage: http://edu.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/klettres
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/klettres
+
+Package: klettres
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, klettres-data (>= ${source:Version})
+Suggests: khelpcenter4
+Description: foreign alphabet tutor for KDE
+ KLettres is an aid for learning how to read and pronounce the alphabet of a
+ foreign language.
+ .
+ Seven languages are currently available: Czech, Danish, Dutch, English,
+ French, Italian and Slovak.
+ .
+ This package is part of the KDE education module.
+
+Package: klettres-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: data files for KLettres foreign alphabet tutor
+ This package contains architecture-independent data files for KLettres,
+ the foreign alphabet tutor for KDE.
+ .
+ This package is part of the KDE education module.

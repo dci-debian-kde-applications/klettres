@@ -1,0 +1,29 @@
+klettres (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:00:52 +0200
+
+klettres (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Kolberg <bulldog98@kubuntu-de.org>  Thu, 08 Sep 2011 21:28:23 +0200
+
+klettres (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 25 Jul 2011 00:04:59 +0200
+
+klettres (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
+
+  [ Harald Sitter ]
+  * Initial release (moved out of kdeedu)
+  * Repack upstream source to include copies of LGPL and FDL
+
+  [ Felix Geyer ]
+  * Add copyright information for scripts/klettresl10n.rb.
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 10 Jul 2011 11:43:45 +0200
