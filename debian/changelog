@@ -1,5 +1,5 @@
-klettres (4:4.7.2-0r1) UNRELEASED; urgency=low
+klettres (4:4.7.2-0r1) experimental; urgency=low
 
   * Initial release. Start from the Kubuntu packaging, thanks!
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2011 23:09:13 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:23 -0300
