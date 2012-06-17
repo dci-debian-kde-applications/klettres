@@ -1,13 +1,13 @@
-Format: http://www.debian.org/doc/copyright-format/1.0
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: KLettres
 Upstream-Contact: kde-edu@mail.kde.org
 Source: ftp.kde.org
 
 Files: *
 Copyright: 2001-2011, Anne-Marie Mahfouf <annma@kde.org>
-           2007, Pino Toscano <pino@kde.org>
-           2005, Michael Goettsche <michael.goettsche@kdemail.net>
            2001, Eric Bischoff <e.bischoff@noos.fr>
+           2005, Michael Goettsche <michael.goettsche@kdemail.net>
+           2007, Pino Toscano <pino@kde.org>
 License: GPL-2+
 
 Files: scripts/klettresl10n.rb
@@ -21,11 +21,11 @@ License: LGPL-2
 
 Files: doc/*
 Copyright: 2001-2007, Anne-Marie Mahfouf <annma@kde.org>
-License: GFDL-1.2+
+License: GFDL-NIV-1.2+
 
 Files: debian/*
-Copyright: 2011, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Copyright: 2011, Harald Sitter <apachelogger@ubuntu.com>
+           2011-2012, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: LGPL-2
@@ -70,13 +70,11 @@ License: GPL-2+
  License version 2 can be found in the file
  `/usr/share/common-licenses/GPL-2'.
 
-License: GFDL-1.2+
- Permission is granted to copy, distribute and/or modify this document
- under the terms of the GNU Free Documentation License, Version 1.2
- or any later version published by the Free Software Foundation;
- with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+License: GFDL-NIV-1.2+
+ Permission is granted to copy, distribute and/or modify this document under
+ the terms of the GNU Free Documentation License, Version 1.2 or any later
+ version published by the Free Software Foundation; with no Invariant
+ Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
- On Debian systems, the full text of the GNU Free Documentation
- License version 1.2 can be found in the file
- `/usr/share/common-licenses/GFDL-1.2'.
-
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
