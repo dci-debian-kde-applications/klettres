@@ -1,10 +1,10 @@
-klettres (4:4.10.2-1) UNRELEASED; urgency=low
+klettres (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Bump build-deps.
   * Update uploaders.
 
- -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:31:25 +0000
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:34:38 +0000
 
 klettres (4:4.8.4-1) unstable; urgency=low
 
