@@ -1,6 +1,7 @@
 klettres (4:4.11.3-2) UNRELEASED; urgency=low
 
   * Add autopkgtests.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 10:59:45 +0100
 
