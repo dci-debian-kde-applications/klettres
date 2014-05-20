@@ -1,3 +1,9 @@
+klettres (4:4.13.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 May 2014 14:42:59 +0200
+
 klettres (4:4.11.3-2) unstable; urgency=low
 
   * Add autopkgtests.
