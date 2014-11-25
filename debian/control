@@ -1,7 +1,7 @@
 Source: klettres
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
@@ -13,15 +13,15 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/klettres.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/klettres.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/klettres.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/klettres.git
 
 Package: klettres
 Architecture: any
 Depends: klettres-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: foreign alphabet tutor for KDE
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
