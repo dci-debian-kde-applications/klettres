@@ -19,6 +19,7 @@ Build-Depends: cmake,
                libkf5newstuff-dev,
                libkf5widgetsaddons-dev,
                libphonon4qt5-dev,
+               libphonon4qt5experimental-dev,
                libqt5svg5-dev (>= 5.2.0),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0)
