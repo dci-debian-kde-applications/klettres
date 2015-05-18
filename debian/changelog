@@ -1,11 +1,12 @@
-klettres (4:15.04.0-1~) UNRELEASED; urgency=medium
+klettres (4:15.04.1-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * New upstream release (14.12.3).
   * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:24:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 May 2015 14:13:00 +0200
 
 klettres (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
