@@ -1,8 +1,21 @@
+klettres (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:22:45 +0100
+
 klettres (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:00:42 +0000
+
+klettres (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:55 +0100
 
 klettres (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -16,6 +29,17 @@ klettres (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:05:32 +0100
+
+klettres (4:15.08.0-1) unstable; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * New upstream release (14.12.3).
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 22:18:16 +0200
 
 klettres (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -68,11 +92,11 @@ klettres (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 klettres (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 22:54:35 +0000
 
@@ -324,7 +348,7 @@ klettres (4:4.10.2-0ubuntu1) raring; urgency=low
 klettres (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream bugfix release
-  * Fix copyright syntax 
+  * Fix copyright syntax
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:48:28 +0000
 
@@ -422,7 +446,7 @@ klettres (4:4.8.2-0ubuntu1) precise; urgency=low
 
 klettres (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:32:59 +0100
 
@@ -458,8 +482,8 @@ klettres (4:4.7.4-2) unstable; urgency=low
 
 klettres (4:4.7.4-1) experimental; urgency=low
 
-  * New upstream release. 
-  
+  * New upstream release.
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add myself to Uploaders.
@@ -500,7 +524,7 @@ klettres (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 klettres (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 25 Jul 2011 00:04:59 +0200
 
@@ -514,4 +538,3 @@ klettres (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Add copyright information for scripts/klettresl10n.rb.
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 10 Jul 2011 11:43:45 +0200
-
