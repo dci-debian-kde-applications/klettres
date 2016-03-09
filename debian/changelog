@@ -1,9 +1,9 @@
-klettres (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+klettres (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes. 
   * Fix typo. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 05 Feb 2016 15:21:22 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:49:45 +0100
 
 klettres (4:15.12.1-1) experimental; urgency=medium
 
