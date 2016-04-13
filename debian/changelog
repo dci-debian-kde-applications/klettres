@@ -1,3 +1,11 @@
+klettres (4:15.12.1-2~1.gbp1e42d1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1e42d15e9b7d009fcc6bbaefd2084200951f02db **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:36:11 +0200
+
 klettres (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
