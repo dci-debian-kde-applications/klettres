@@ -1,6 +1,6 @@
-klettres (4:16.04.0-1~2.gbpb09342) UNRELEASED; urgency=medium
+klettres (4:16.04.1-1~1.gbp0b8ced) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b09342099f382b913cf872a3423a070dfd8c0ba7 **
+  ** SNAPSHOT build @0b8cedb11e5d0d89e9b152f8b3b2716648c4c724 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @45242734774549423803b389a6496fcb7c46b07e **
@@ -11,8 +11,9 @@ klettres (4:16.04.0-1~2.gbpb09342) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:35:20 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:35:16 +0200
 
 klettres (4:15.12.1-1) experimental; urgency=medium
 
