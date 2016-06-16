@@ -12,6 +12,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev,
                libkf5configwidgets-dev,
                libkf5coreaddons-dev,
+               libkf5crash-dev,
                libkf5emoticons-dev,
                libkf5i18n-dev,
                libkf5itemmodels-dev,
@@ -23,7 +24,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libqt5svg5-dev (>= 5.4),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/klettres.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/klettres.git
