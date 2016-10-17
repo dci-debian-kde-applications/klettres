@@ -1,10 +1,8 @@
-klettres (4:16.08.0-1~1.gbp400a69) UNRELEASED; urgency=medium
+klettres (4:16.08.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @400a6950abd736310883d8599872b22d3a9e632e **
+  * New upstream release (16.08.0)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:35:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:36:50 +0200
 
 klettres (4:16.04.1-1) unstable; urgency=medium
 
