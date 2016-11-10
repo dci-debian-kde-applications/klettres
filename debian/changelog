@@ -1,10 +1,11 @@
-klettres (4:16.08.0-2~1.gbpdf3578) UNRELEASED; urgency=medium
+klettres (4:16.08.3-1~1.gbp06fdae) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @df357849d427a6bd48e511f5fe72836e1df2d0ab **
+  ** SNAPSHOT build @06fdae5460522ac6e812c0f8f51cdec5b654620f **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 00:35:40 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:35:16 +0100
 
 klettres (4:16.08.0-1) unstable; urgency=medium
 
