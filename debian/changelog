@@ -1,11 +1,12 @@
-klettres (4:16.08.3-1~1.gbp06fdae) UNRELEASED; urgency=medium
+klettres (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @06fdae5460522ac6e812c0f8f51cdec5b654620f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:35:16 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.3)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:12:08 +0100
 
 klettres (4:16.08.0-1) unstable; urgency=medium
 
