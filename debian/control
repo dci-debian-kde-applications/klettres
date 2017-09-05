@@ -35,8 +35,8 @@ Depends: klettres-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: khelpcenter
-Replaces: klettres-data (<< ${source:Version}~ciBuild)
-Breaks: klettres-data (<< ${source:Version}~ciBuild)
+Replaces: klettres-data (<< 4:17.08.1)
+Breaks: klettres-data (<< 4:17.08.1)
 Description: foreign alphabet tutor for KDE
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
