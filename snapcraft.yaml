@@ -1,0 +1,55 @@
+---
+name: klettres
+version: 17.08.1
+summary: a KDE program to learn the alphabet
+description: |-
+    KLettres is an aid for learning how to read and pronounce the alphabet of a foreign language.
+
+    Seven languages are currently available: Czech, Danish, Dutch, English, French, Italian and Slovak.
+
+    This package is part of the KDE education module.
+confinement: strict
+grade: stable
+apps:
+    klettres:
+        command: kf5-launch klettres
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kletters
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    klettres:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdelibs4support-dev
+        - libphonon4qt5-dev
+        - libphonon4qt5experimental-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/klettres-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
