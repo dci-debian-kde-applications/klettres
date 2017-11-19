@@ -1,6 +1,7 @@
-klettres (4:17.08.3-0r1) UNRELEASED; urgency=medium
+klettres (4:17.08.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable.
   * New upstream release.
   * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will drop
     translations.
@@ -9,7 +10,7 @@ klettres (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove unused build dependencies: libkf5itemmodels-dev, and
     libkf5kdelibs4support-dev.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Nov 2017 10:52:42 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 19 Nov 2017 11:13:30 +0100
 
 klettres (4:17.08.1-1) experimental; urgency=medium
 
