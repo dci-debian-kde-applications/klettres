@@ -2,6 +2,8 @@ klettres (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will drop
+    translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Nov 2017 10:52:42 +0100
 
