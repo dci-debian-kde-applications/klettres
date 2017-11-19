@@ -4,11 +4,10 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.7.0~),
-               kdoctools-dev,
                libkf5completion-dev,
                libkf5configwidgets-dev,
                libkf5coreaddons-dev,
@@ -24,8 +23,8 @@ Build-Depends: cmake (>= 2.8.12~),
                libphonon4qt5experimental-dev,
                libqt5svg5-dev (>= 5.4),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.8
+               qtbase5-dev (>= 5.4),
+Standards-Version: 4.1.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/klettres.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/klettres.git
@@ -34,8 +33,10 @@ Package: klettres
 Architecture: any
 Depends: klettres-data (>= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Suggests: khelpcenter
+Replaces: klettres-data (<< 4:17.08.1)
+Breaks: klettres-data (<< 4:17.08.1)
 Description: foreign alphabet tutor for KDE
  KLettres is an aid for learning how to read and pronounce the alphabet of a
  foreign language.
@@ -48,6 +49,8 @@ Description: foreign alphabet tutor for KDE
 Package: klettres-data
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: data files for KLettres foreign alphabet tutor
  This package contains architecture-independent data files for KLettres,
  the foreign alphabet tutor for KDE.
