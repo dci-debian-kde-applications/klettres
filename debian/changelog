@@ -1,3 +1,25 @@
+klettres (4:17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Adjust again l10npkgs_firstversion_ok to the fixed version of kde-
+    l10n.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 20 Nov 2017 20:55:55 +0100
+
+klettres (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * New upstream release.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will drop
+    translations.
+  * Bump Standards-Version to 4.1.1, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Remove unused build dependencies: libkf5itemmodels-dev, and
+    libkf5kdelibs4support-dev.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 19 Nov 2017 11:13:30 +0100
+
 klettres (4:17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
